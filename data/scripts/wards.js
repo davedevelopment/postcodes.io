@@ -18,13 +18,9 @@ const transform = (row) => {
   return [code, value];
 };
 
-const appendMissing = {
-  E05012396: "Darenth",
-};
-
 const configs = [
   {
-    file: "Ward names and codes UK as at 05_22_provisional.csv",
+    file: "Ward names and codes UK as at 05_22_onspd_v2.csv",
     transform,
     parseOptions: {
       delimiter: ",",
